@@ -8,7 +8,7 @@
 
 # Docs Starter
 
-Create beautiful documentation in under 5 minutes using your OpenAPI specification.
+Create beautiful documentation in under 5 minutes using your OpenAPI spec.
 
 </div>
 
