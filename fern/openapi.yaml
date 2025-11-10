@@ -308,7 +308,7 @@ components:
             type: string
         status:
           type: string
-          enum: [available, pending, sold]
+          enum: [available, pending, sold, lost]
     PlantResponse:
       type: object
       properties:
