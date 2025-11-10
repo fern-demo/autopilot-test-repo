@@ -4,7 +4,7 @@ groups:
   python-sdk:
     generators:
       - name: fernapi/fern-python-sdk
-        version: 4.25.6
+        version: 4.35.0
         github:
           repository: fern-demo/autopilot-python-sdk
           mode: "pull-request"
@@ -19,7 +19,7 @@ groups:
   local:
     generators:
       - name: fernapi/fern-python-sdk
-        version: 4.25.6
+        version: 4.35.0
         output:
           location: local-file-system
           path: ../sdks/python
