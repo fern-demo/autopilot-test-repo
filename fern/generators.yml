@@ -1,25 +1,18 @@
 # yaml-language-server: $schema=https://schema.buildwithfern.dev/generators-yml.json
-default-group: python-sdk
+default-group: typescript-sdk
 groups:
-  python-sdk:
+  typescript-sdk:
     generators:
-      - name: fernapi/fern-python-sdk
-        version: 4.35.0
+      - name: fernapi/fern-typescript-sdk
+        version: 3.28.6
         github:
-          repository: fern-demo/autopilot-python-sdk
+          repository: fern-demo/autopilot-typescript-sdk
           mode: "pull-request"
-        config:
-          client:
-            class_name: Autopilot
-            filename: client.py
-          pydantic_config:
-            skip_validation: true
-          exclude_types_from_init_exports: true
 
   local:
     generators:
-      - name: fernapi/fern-python-sdk
-        version: 4.35.0
+      - name: fernapi/fern-typescript-sdk
+        version: 3.28.6
         output:
           location: local-file-system
-          path: ../sdks/python
+          path: ../sdks/typescript
