@@ -1,4 +1,4 @@
-name: Release Python SDK
+name: Release Typescript SDK
 
 on:
   workflow_dispatch:
