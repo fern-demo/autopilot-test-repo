@@ -29,6 +29,7 @@ service:
               id: tt0111161
               title: The Shawshank Redemption
               rating: 9.3
+              description: A story of hope and redemption.
         # Error response
         - path-parameters:
             id: tt1234
