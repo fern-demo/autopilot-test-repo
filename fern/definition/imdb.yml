@@ -29,7 +29,6 @@ service:
               id: tt0111161
               title: The Shawshank Redemption
               rating: 9.3
-              description: A story of hope and redemption.
               metadata: "hey"
         # Error response
         - path-parameters:
@@ -50,7 +49,6 @@ types:
       rating:
         type: double
         docs: The rating scale out of ten stars
-      description: string
       metadata: string
 
   CreateMovieRequest:
