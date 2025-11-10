@@ -15,3 +15,11 @@ groups:
           pydantic_config:
             skip_validation: true
           exclude_types_from_init_exports: true
+
+  local:
+    generators:
+      - name: fernapi/fern-python-sdk
+        version: 4.25.6
+        output:
+          location: local-file-system
+          path: ../sdks/python

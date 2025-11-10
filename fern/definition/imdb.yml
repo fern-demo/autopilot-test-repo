@@ -48,6 +48,7 @@ types:
       rating:
         type: double
         docs: The rating scale out of ten stars
+      description: string
 
   CreateMovieRequest:
     properties:
