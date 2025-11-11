@@ -55,6 +55,7 @@ types:
     properties:
       title: string
       rating: double
+      metadata: string
 
 errors:
   MovieDoesNotExistError:
