@@ -4,15 +4,87 @@ groups:
   typescript-sdk:
     generators:
       - name: fernapi/fern-typescript-sdk
-        version: 3.4.0
+        version: 0.45.0
         github:
           repository: fern-demo/autopilot-typescript-sdk
+          mode: "pull-request"
+
+  python-sdk:
+    generators:
+      - name: fernapi/fern-python-sdk
+        version: 4.10.0
+        github:
+          repository: fern-demo/autopilot-python-sdk
+          mode: "pull-request"
+
+  go-sdk:
+    generators:
+      - name: fernapi/fern-go-sdk
+        version: 1.16.0
+        github:
+          repository: fern-demo/autopilot-go-sdk
+          mode: "pull-request"
+
+  java-sdk:
+    generators:
+      - name: fernapi/fern-java-sdk
+        version: 3.16.0
+        github:
+          repository: fern-demo/autopilot-java-sdk
+          mode: "pull-request"
+
+  csharp-sdk:
+    generators:
+      - name: fernapi/fern-csharp-sdk
+        version: 0.20.0
+        github:
+          repository: fern-demo/autopilot-csharp-sdk
+          mode: "pull-request"
+
+  php-sdk:
+    generators:
+      - name: fernapi/fern-php-sdk
+        version: 0.10.0
+        github:
+          repository: fern-demo/autopilot-php-sdk
+          mode: "pull-request"
+
+  ruby-sdk:
+    generators:
+      - name: fernapi/fern-ruby-sdk
+        version: 0.30.0
+        github:
+          repository: fern-demo/autopilot-ruby-sdk
+          mode: "pull-request"
+
+  swift-sdk:
+    generators:
+      - name: fernapi/fern-swift-sdk
+        version: 4.10.0
+        github:
+          repository: fern-demo/autopilot-swift-sdk
+          mode: "pull-request"
+
+  rust-sdk:
+    generators:
+      - name: fernapi/fern-rust-sdk
+        version: 0.1.0
+        github:
+          repository: fern-demo/autopilot-rust-sdk
+          mode: "pull-request"
+
+  postman:
+    generators:
+      - name: fernapi/fern-postman
+        version: 0.5.0
+        github:
+          repository: fern-demo/autopilot-postman
           mode: "pull-request"
 
   local:
     generators:
       - name: fernapi/fern-typescript-sdk
-        version: 3.28.6
+        version: 0.45.0
         output:
           location: local-file-system
           path: ../sdks/typescript
