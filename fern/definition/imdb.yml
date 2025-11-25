@@ -59,6 +59,7 @@ types:
       rating: double
       metadata: string
       more_metadata: string
+      rank: integer
 
 errors:
   MovieDoesNotExistError:
