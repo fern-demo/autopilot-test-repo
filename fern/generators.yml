@@ -22,6 +22,14 @@ groups:
           repository: fern-demo/autopilot-python-sdk
           mode: pull-request
 
+    go-sdk:
+      generators:
+        - name: fernapi/fern-go-sdk
+          version: 1.18.0
+          github:
+            repository: fern-demo/autopilot-sdk-go
+            mode: pull-request
+
   local:
     generators:
       - name: fernapi/fern-typescript-sdk
