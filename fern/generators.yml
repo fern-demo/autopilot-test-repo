@@ -30,10 +30,10 @@ groups:
             repository: fern-demo/autopilot-sdk-go
             mode: pull-request
 
-  local:
-    generators:
-      - name: fernapi/fern-typescript-sdk
-        version: 3.28.6
-        output:
-          location: local-file-system
-          path: ../sdks/typescript
+#  local:
+#    generators:
+#      - name: fernapi/fern-typescript-sdk
+#        version: 3.28.6
+#        output:
+#          location: local-file-system
+#          path: ../sdks/typescript
