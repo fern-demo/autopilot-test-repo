@@ -60,6 +60,7 @@ types:
       metadata: string
       more_metadata: string
       rank: integer
+      option: string
 
 errors:
   MovieDoesNotExistError:
