@@ -4,7 +4,7 @@ groups:
   typescript-sdk:
     generators:
       - name: fernapi/fern-typescript-sdk
-        version: 3.28.6
+        version: 3.28.9
         github:
           repository: fern-demo/autopilot-typescript-sdk
           mode: "pull-request"
