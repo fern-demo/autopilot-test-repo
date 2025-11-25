@@ -29,8 +29,6 @@ groups:
         github:
           repository: fern-demo/autopilot-sdk-go
           mode: pull-request
-        config:
-          enableWireTests: false
 
 #  local:
 #    generators:
