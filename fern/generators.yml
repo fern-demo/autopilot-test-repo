@@ -9,6 +9,19 @@ groups:
           repository: fern-demo/autopilot-typescript-sdk
           mode: "pull-request"
 
+    python-sdk:
+      generators:
+        - name: fernapi/fern-python-sdk
+          version: 4.38.1
+          output:
+            location: pypi
+            package-name: payroc
+            # uncomment to publish to registry
+            # token: ${PYPI_TOKEN}
+          github:
+            repository: fern-demo/autopilot-python-sdk
+            mode: pull-request
+
   local:
     generators:
       - name: fernapi/fern-typescript-sdk
